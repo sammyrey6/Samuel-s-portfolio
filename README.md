@@ -1,6 +1,6 @@
 ﻿# Samuel-s-portfolio
  
-##This project is a portfolio giving a brief description of who I am and my past projects.
+## This project is a portfolio giving a brief description of who I am and my past projects.
 
 This project is a short portfolio with working links that provide things about me, my contact information, and past projects that I am particularly proud of.
 
