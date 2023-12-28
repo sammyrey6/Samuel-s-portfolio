@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import Landing from './components/Landing'
+import Landing from './pages/Landing'
 import Layout from './Layout'
-import Landing from './components/Landing'
 import './App.css'
 
 function App() {

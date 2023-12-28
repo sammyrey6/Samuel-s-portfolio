@@ -1,15 +1,19 @@
 import React from 'react'
 import { Button, Container, Typography, Box, CssBaseline, Paper } from '@mui/material';
+import Layout from '../Layout'
 
 function Landing() {
   return (
-   <Container component="main" style={{
+   
+    <Container component="main" style={{
     backgroundImage: 'myportfolio\public\samuel-prof.jpg',
     height: '100vh'
-   }}> 
+   }}>
+  
 
    <CssBaseline />
 
+   <Layout>
     <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
     Welcome to my portfolio!
     </Typography>
@@ -24,8 +28,9 @@ function Landing() {
 
       </div>
     </div>
-
+    </Layout>
    </Container>
+   
   );
 }
 

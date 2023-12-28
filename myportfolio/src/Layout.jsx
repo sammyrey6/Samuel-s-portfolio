@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from './components/Header';
-import Footer from './components/Footer';
+import React, { Children } from 'react'
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
 
-function Layout() {
+const Layout = ({ children }) => {
   return (
     <>
     <Header />
-    <main></main>
+    <main>{children}</main>
     <Footer />
     </>
   )
